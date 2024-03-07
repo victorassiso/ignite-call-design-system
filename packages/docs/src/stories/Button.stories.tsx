@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Button, ButtonProps } from '@ignite-ui/react'
 
 export default {
-  title: 'Button',
+  title: 'Components/Button',
   component: Button,
 
   args: {
