@@ -27,3 +27,5 @@ export function Input({ prefix, mask, locale, ...props }: InputProps) {
     </Container>
   )
 }
+
+Input.displayName = 'Input'
