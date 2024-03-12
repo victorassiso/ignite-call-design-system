@@ -1,7 +1,7 @@
 {
-  "name": "docs",
+  "name": "@victorassis/docs",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "storybook dev -p 6006",
@@ -13,9 +13,9 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
+    "@victorassis/eslint-config": "*",
+    "@victorassis/react": "*",
+    "@victorassis/tokens": "*",
     "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",
     "react": "^18.2.0",
