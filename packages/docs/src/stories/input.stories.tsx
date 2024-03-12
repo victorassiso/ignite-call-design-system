@@ -4,6 +4,15 @@ import { Box, Text, Input, InputProps } from '@victorassis/react'
 export default {
   title: 'Form/Input',
   component: Input,
+  size: 'md',
+  argTypes: {
+    size: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
 } as Meta<InputProps>
 
 export const Primary: StoryObj<InputProps> = {
