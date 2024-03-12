@@ -10,6 +10,7 @@ export const Button = styled('button', {
   textAlign: 'center',
   minWidth: 120,
   boxSizing: 'border-box',
+  padding: '0 $4',
 
   display: 'flex',
   alignItems: 'center',
@@ -18,13 +19,13 @@ export const Button = styled('button', {
 
   cursor: 'pointer',
 
-  '&:disabled': {
-    cursor: 'not-allowed',
-  },
-
   svg: {
     width: '$4',
     height: '$4',
+  },
+
+  '&:disabled': {
+    cursor: 'not-allowed',
   },
 
   variants: {
@@ -41,6 +42,7 @@ export const Button = styled('button', {
           backgroundColor: '$gray200',
         },
       },
+
       secondary: {
         color: '$ignite300',
         border: '2px solid $ignite500',
@@ -55,6 +57,7 @@ export const Button = styled('button', {
           borderColor: '$gray200',
         },
       },
+
       tertiary: {
         color: '$gray100',
 
@@ -69,8 +72,11 @@ export const Button = styled('button', {
     },
 
     size: {
+      sm: {
+        height: 38,
+      },
+
       md: {
-        padding: '0 $4',
         height: 46,
       },
     },
