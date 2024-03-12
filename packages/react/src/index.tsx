@@ -7,5 +7,6 @@ export * from './components/input'
 export * from './components/text-area'
 export * from './components/checkbox'
 export * from './components/multistep'
+export * from './components/tooltip'
 
 export * from './styles'
