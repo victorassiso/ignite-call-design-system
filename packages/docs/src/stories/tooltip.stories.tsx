@@ -30,11 +30,11 @@ export default {
       return (
         <Box
           css={{
-            height: '$20',
+            height: '$40',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            backgroundColor: '$gray500',
+            backgroundColor: '$gray600',
           }}
         >
           <TooltipProvider>

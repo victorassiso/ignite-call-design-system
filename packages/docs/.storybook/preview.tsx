@@ -12,7 +12,13 @@ const preview: Preview = {
       },
     },
     backgrounds: {
-      default: 'dark'
+      default: 'dark',
+      values: [
+        {
+          name: 'dark',
+          value: '#121214'
+        }
+      ]
     },
     docs: {
       theme: themes.dark,
